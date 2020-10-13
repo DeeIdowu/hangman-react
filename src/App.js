@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <h1>Welcome to Hangman</h1>
       <Header/>
-      <Figure/>
+      <div className="game-container">
+         <Figure/>
+      </div>
     </div>
   );
 }
